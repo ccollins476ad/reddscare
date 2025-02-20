@@ -1,0 +1,20 @@
+# Directory to save bdfr output to.
+#bdfr_dir:
+
+# Directory to save bdfrscrape output to.
+#work_dir: /home/ccollins/tmp/scrape-test
+
+# Directory to save bdfrtohtml output to.
+#html_dir: /home/ccollins/tmp/html-test
+
+# Array of command line arguments to pass to bdfr.
+#bdfr_opts:
+
+# Path of the bdfrscrape tool. Just specify "bdfrscrape" if it is in your PATH.
+#bdfrscrape_path: bdfrscrape
+
+# Array of command line arguments to pass to bdfrscrape.
+#bdfrscrape_opts:
+
+# Array of command line arguments to pass to bdfrtohtml.
+#bdfrtohtml_opts:

@@ -1,0 +1,32 @@
+### This is an example reddscare config file. Please adjust paths as appropriate!
+
+# Directory to save bdfr output to.
+bdfr_dir: /home/ccollins/reddit/bdfr
+
+# Directory to save bdfrscrape output to.
+work_dir: /home/ccollins/reddit/scrape
+
+# Directory to save bdfrtohtml output to.
+html_dir: /home/ccollins/reddit/html
+
+# Array of command line arguments to pass to bdfr.
+bdfr_opts:
+  - --sort
+  - new
+  - --stop-on-exist
+  - --config
+  - /home/ccollins/.config/bdfr/myconfig.cfg
+  - --no-dupes
+
+# Path of the bdfrscrape tool. Just specify "bdfrscrape" if it is in your PATH.
+bdfr_scrape_path: bdfrscrape
+
+# Array of command line arguments to pass to bdfrscrape.
+bdfr_scrape_opts:
+  - -j
+  - 8
+
+# Array of command line arguments to pass to bdfrtohtml.
+bdfrhtml_opts:
+  - --index_mode
+  - oldreddit
